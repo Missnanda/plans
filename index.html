@@ -83,20 +83,23 @@
       margin-bottom: 30px;
     }
     .apple-button {
-      display: inline-block;
-      color: #0071e3;
-      font-size: 17px;
-      font-weight: 500;
+      background-color: transparent;
+      border: 1px solid #d2d2d7; /* Apple-style silver-gray */
+      color: white;
+      padding: 12px 28px;
+      border-radius: 12px;
       text-decoration: none;
-      border: none;
-      background: none;
-      padding: 10px 0;
+      font-weight: 600;
+      font-size: 16px;
       transition: all 0.3s ease;
-      letter-spacing: -0.2px;
+      display: inline-block;
+      backdrop-filter: blur(4px); /* Optional: add blur for modern effect */
   }
   .apple-button:hover {
-    text-decoration: underline;
-    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #e5e5ea;
+    color: white;
+    opacity: 0.9;
     }
     .simple-list {
       font-size: 16px;
@@ -247,24 +250,26 @@
         <td>Rp200.000</td>
         <td>
           <ul class="no-bullets">
-          <li>Welcome Kit</li>
+          <li>Welcome Experience</li>
           <li>Signature welcome pack</li>
           <li>Parent Brief Kit</li>
           </ul>
         </td>
       </tr>
     </table>
-    <div style="text-align:center; margin-top: 20px;">
+    </div>
+    <div style="text-align:center; margin-top: 24px;">
       <a href="#learn-more" class="aapple-buttton">Learn More</a>
     </div>
     <div class="section-title">Trial Session </div>
+    <div class="table-wrapper">
     <table>
       <tr>
         <th>Investment</th>
         <th>What You Get</th>
       </tr>
       <tr>
-        <td>Rp150.000</td
+        <td>Rp150.000</td>
         <td>
           <ul class="no-bullets">
             <li>Interactive Mini-Lesson</li>
@@ -274,6 +279,7 @@
         </td>
       </tr>
     </table>
+    </div>
     <div class="section-title">B. Starters (G1-3) </div>
     <table>
       <tr>
