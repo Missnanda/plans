@@ -13,11 +13,6 @@
       background-color: #ffffff;
       line-height: 1.6;
     }
-    .table-wrapper {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      margin-bottom: 30px;
-    }
     .container {
       max-width: 900px;
       margin: 0 auto;
@@ -81,6 +76,27 @@
       margin-bottom: 8px;
       font-weight: 500;
       color: #333;
+    }
+    .table-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin-bottom: 30px;
+    }
+    .apple-button {
+      display: inline-block;
+      color: #0071e3;
+      font-size: 17px;
+      font-weight: 500;
+      text-decoration: none;
+      border: none;
+      background: none;
+      padding: 10px 0;
+      transition: all 0.3s ease;
+      letter-spacing: -0.2px;
+  }
+  .apple-button:hover {
+    text-decoration: underline;
+    opacity: 0.8;
     }
     .simple-list {
       font-size: 16px;
@@ -239,7 +255,7 @@
       </tr>
     </table>
     <div style="text-align:center; margin-top: 20px;">
-      <a href="https://" style="background-color: #0071e3; color: white; paddding: 10px;  24px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 14px;">Explore More</a>
+      <a href="#learn-more" class="aapple-buttton">Learn More</a>
     </div>
     <div class="section-title">Trial Session </div>
     <table>
@@ -248,10 +264,14 @@
         <th>What You Get</th>
       </tr>
       <tr>
-        <td>Rp150.000</td>
-        <td>Interactive Mini-Lesson</td>
-        <td>Parental Insight Session</td>
-        <td>Learning Style Discovery</td>
+        <td>Rp150.000</td
+        <td>
+          <ul class="no-bullets">
+            <li>Interactive Mini-Lesson</li>
+            <li>Parental Insight Session</li>
+            <li>Learning Style Discovery</li>
+          </ul>
+        </td>
       </tr>
     </table>
     <div class="section-title">B. Starters (G1-3) </div>
